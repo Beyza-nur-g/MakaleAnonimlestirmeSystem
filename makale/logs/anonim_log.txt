@@ -1,0 +1,335 @@
+[2025-03-21 14:23:48.415195] [Editör] Anonimleştirme -> anonymized_MKL-1742549620652.pdf | Durum: Başarılı
+[2025-03-21 14:48:14.634128] [Editör] Anonimleştirme -> anonymized_MKL-1742549629466.pdf | Durum: Başarılı
+[2025-03-21 15:19:46.668176] [Editör] Anonimlik Kaldırma -> final_MKL-1742549620652.pdf | Durum: Başarılı
+[2025-03-21 16:17:31.847898] [Editör] Anonimlik Kaldırma -> final_MKL-1742549629466.pdf | Durum: Başarılı
+[2025-03-22 09:39:18.617694] [Editör] Anonimleştirme -> anonymized_MKL-1742625154453.pdf | Durum: Başarılı
+[2025-03-22 09:40:36.895165] [Editör] De-anonimleştirme -> final_MKL-1742625154453.pdf | Durum: Başarılı
+[2025-03-22 09:53:59.830504] [Editör] Anonimleştirme -> anonymized_MKL-1742625289233.pdf | Durum: Başarılı
+[2025-03-22 09:54:45.828347] [Editör] De-anonimleştirme -> final_MKL-1742625289233.pdf | Durum: Başarılı
+[2025-03-22 10:00:42.846171] [Editör] Anonimleştirme -> anonymized_MKL-1742625289463.pdf | Durum: Başarılı
+[2025-03-22 10:01:26.446405] [Editör] De-anonimleştirme -> final_MKL-1742625289463.pdf | Durum: Başarılı
+[2025-03-22 10:32:15.457306] [Editör] Anonimleştirme -> anonymized_MKL-1742625285249.pdf | Durum: Başarılı
+[2025-03-22 10:44:44.340086] [Editör] Anonimleştirme -> anonymized_MKL-1742625285077.pdf | Durum: Başarılı
+[2025-03-22 11:36:45.762214] [Editör] Anonimleştirme -> anonymized_MKL-1742632254276.pdf | Durum: Başarılı
+[2025-03-22 11:39:13.054451] [Editör] Anonimleştirme -> anonymized_MKL-1742632259765.pdf | Durum: Başarılı
+[2025-03-22 11:44:34.524428] [Editör] Anonimleştirme -> anonymized_MKL-1742632263497.pdf | Durum: Başarılı
+[2025-03-22 11:57:19.307726] [Editör] Anonimleştirme -> anonymized_MKL-1742286926930.pdf | Durum: Başarılı
+[2025-03-23 11:44:03.799501] [Editör] Anonimleştirme -> anonymized_MKL-1742719205445.pdf | Durum: Başarılı
+[2025-03-23 13:41:14.797226] [Editör] Anonimleştirme -> anonymized_MKL-1742726367148.pdf | Durum: Başarılı
+[2025-03-23 13:53:35.120028] [Editör] Anonimleştirme -> anonymized_MKL-1742726366937.pdf | Durum: Başarılı
+[2025-03-23 15:15:51.158608] [Editör] Anonimleştirme -> anonymized_MKL-1742726366702.pdf | Durum: Başarılı
+[2025-03-24 12:26:54.186153] [Editör] Anonimleştirme -> anonymized_MKL-1742726362847.pdf | Durum: Başarılı
+[2025-03-24 12:42:18.339986] [Editör] De-anonimleştirme -> 1742726362847 | Durum: Başarılı
+[2025-03-24 12:47:04.737143] [Editör] De-anonimleştirme -> 1742726362847 | Durum: Başarılı
+[2025-03-24 12:56:14.034646] [Editör] De-anonimleştirme -> 1742726362847 | Durum: Başarılı
+[2025-03-24 13:03:00.992696] [Editör] De-anonimleştirme -> 1742726362847 | Durum: Başarılı
+[2025-03-24 13:04:41.748392] [Editör] Anonimleştirme -> anonymized_MKL-1742726358202.pdf | Durum: Başarılı
+[2025-03-24 13:07:36.894009] [Editör] De-anonimleştirme -> 1742726358202 | Durum: Başarılı
+[2025-03-24 13:15:15.406951] [Editör] De-anonimleştirme -> 1742726358202 | Durum: Başarılı
+[2025-03-24 13:18:39.005109] [Editör] Anonimleştirme -> anonymized_MKL-1742726358820.pdf | Durum: Başarılı
+[2025-03-24 13:19:45.662289] [Editör] De-anonimleştirme -> 1742726358820 | Durum: Başarılı
+[2025-03-25 02:08:03.459825] [Editör] De-anonimleştirme -> 1742726358820 | Durum: Başarılı
+[2025-03-25 02:22:45.874245] [Editör] Anonimleştirme -> anonymized_MKL-1742726436442.pdf | Durum: Başarılı
+[2025-03-25 02:23:47.692283] [Editör] De-anonimleştirme -> 1742726436442 | Durum: Başarılı
+[2025-03-25 02:32:50.312662] [Editör] Anonimleştirme -> anonymized_MKL-1742726436493.pdf | Durum: Başarılı
+[2025-03-25 02:40:31.569512] [Editör] De-anonimleştirme -> 1742726436493 | Durum: Başarılı
+[2025-03-25 02:45:21.168739] [Editör] Anonimleştirme -> anonymized_MKL-1742726436536.pdf | Durum: Başarılı
+[2025-03-25 02:46:13.471179] [Editör] De-anonimleştirme -> 1742726436536 | Durum: Başarılı
+[2025-03-25 02:51:28.261393] [Editör] Anonimleştirme -> anonymized_MKL-1742859454372.pdf | Durum: Başarılı
+[2025-03-25 02:52:52.142914] [Editör] De-anonimleştirme -> 1742859454372 | Durum: Başarılı
+[2025-03-25 02:57:11.309460] [Editör] Anonimleştirme -> anonymized_MKL-1742859458134.pdf | Durum: Başarılı
+[2025-03-25 02:57:41.537698] [Editör] De-anonimleştirme -> 1742859458134 | Durum: Başarılı
+[2025-03-25 02:58:47.444438] [Editör] De-anonimleştirme -> 1742859458134 | Durum: Başarılı
+[2025-03-25 03:19:03.966763] [Editör] Anonimleştirme -> anonymized_MKL-1742859453639.pdf | Durum: Başarılı
+[2025-03-25 03:33:06.502452] [Editör] Anonimleştirme -> anonymized_MKL-1742859453867.pdf | Durum: Başarılı
+[2025-03-25 03:46:07.658192] [Editör] Anonimleştirme -> anonymized_MKL-1742863365582.pdf | Durum: Başarılı
+[2025-03-25 03:50:24.474200] [Editör] De-anonimleştirme -> 1742863365582 | Durum: Başarılı
+[2025-03-25 04:01:06.720383] [Editör] Anonimleştirme -> anonymized_MKL-1742859457882.pdf | Durum: Başarılı
+[2025-03-25 04:03:10.766098] [Editör] Anonimleştirme -> anonymized_MKL-1742859539402.pdf | Durum: Başarılı
+[2025-03-25 04:16:37.878350] [Editör] Anonimleştirme -> anonymized_MKL-1742859461738.pdf | Durum: Başarılı
+[2025-03-25 04:21:44.495123] [Editör] Anonimleştirme -> anonymized_MKL-1742863365772.pdf | Durum: Başarılı
+[2025-03-25 04:22:43.792607] [Editör] De-anonimleştirme -> 1742863365772 | Durum: Başarılı
+[2025-03-25 06:25:54.755774] [Editör] De-anonimleştirme -> 1742863365772 | Durum: Başarılı
+[2025-03-26 10:54:58.076476] [Editör] Anonimleştirme -> anonymized_MKL-1742975492368.pdf | Durum: Başarılı
+[2025-03-26 10:57:08.456304] [Editör] De-anonimleştirme -> 1742975492368 | Durum: Başarılı
+[2025-03-26 11:19:40.380960] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742863365208.pdf
+[2025-03-26 11:21:11.012368] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742863365208.pdf
+[2025-03-26 12:07:50.541000] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742975467235.pdf
+[2025-03-26 12:10:41.625893] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742975467235.pdf
+[2025-03-26 12:23:52.307775] SHA256 hash dosyası bulunamadı. İşlem iptal.
+[2025-03-26 12:43:12.867888] SHA256 hash dosyası bulunamadı. İşlem iptal.
+[2025-03-26 12:45:22.079065] SHA256 hash dosyası bulunamadı. İşlem iptal.
+[2025-03-26 13:10:29.616025] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742869859657.pdf
+[2025-03-26 13:11:43.720827] SHA256 hash dosyası bulunamadı. İşlem iptal.
+[2025-03-26 13:22:29.395012] [ENGELLENDİ] Hakem yorumu değiştirildi, işlem iptal.
+[2025-03-26 13:22:55.573857] [ENGELLENDİ] Hakem yorumu değiştirildi, işlem iptal.
+[2025-03-26 13:24:27.920518] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742869341425.pdf
+[2025-03-26 13:47:19.577300] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742869294716.pdf
+[2025-03-26 14:21:22.198369] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742863456039.pdf
+[2025-03-26 14:30:50.412551] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742859539427.pdf
+[2025-03-26 14:32:58.472774] SHA256 hash dosyası bulunamadı: src\anonymized\anonymized_MKL-1742859539427_review_hash.txt. İşlem iptal.
+[2025-03-26 15:04:32.776075] SHA256 hash dosyası bulunamadı: src\anonymized\anonymized_MKL-1742859539427_review_hash.txt. İşlem iptal.
+[2025-03-26 15:05:10.758851] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742863456095.pdf
+[2025-03-26 15:38:47.585748] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742863455795.pdf
+[2025-03-26 15:44:48.233518] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742863364998.pdf
+[2025-03-26 15:56:11.375929] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742863365959.pdf
+[2025-03-26 16:01:16.703469] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742863365416.pdf
+[2025-03-26 16:06:22.401175] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742859453639.pdf
+[2025-03-26 16:11:57.861426] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742859461738.pdf
+[2025-03-26 16:29:18.086184] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742549629466.pdf
+[2025-03-26 16:39:03.020681] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742549609255.pdf
+[2025-03-26 16:49:52.829231] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742996807672.pdf
+[2025-03-26 16:52:53.647858] [ENGELLENDİ] Hakem yorumu değiştirildi, işlem iptal.
+[2025-03-26 17:10:46.069418] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742996727081.pdf
+[2025-03-26 17:14:06.446629] Yorum bölgesi bulunamadı. İşlem iptal.
+[2025-03-26 17:19:45.227927] Yorum bölgesi bulunamadı. İşlem iptal.
+[2025-03-26 17:21:32.026798] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742549613393.pdf
+[2025-03-26 17:24:15.247819] Metadata bulunamadı.
+[2025-03-26 17:31:11.723479] Metadata bulunamadı.
+[2025-03-26 17:34:38.350301] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742999586495.pdf
+[2025-03-26 17:35:56.875547] Metadata bulunamadı.
+[2025-03-26 17:39:55.107480] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1742999586495.pdf
+[2025-03-26 17:41:59.429340] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742999586654.pdf
+[2025-03-26 17:43:04.234308] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1742999586654.pdf
+[2025-03-26 18:12:15.812538] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1742999586495.pdf
+[2025-03-26 18:24:54.223055] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742999533031.pdf
+[2025-03-26 18:27:23.040387] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1742999533031.pdf
+[2025-03-26 21:22:11.033295] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1742999586495.pdf
+[2025-03-26 21:23:24.911375] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1742999534042.pdf
+[2025-03-26 21:24:54.295082] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743013365656.pdf
+[2025-03-26 21:25:53.951053] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1742999534042.pdf
+[2025-03-26 21:32:08.538493] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743013365656.pdf
+[2025-03-26 21:33:34.593010] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743013365656.pdf
+[2025-03-26 22:44:25.118929] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018114634.pdf
+[2025-03-26 22:53:56.054433] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018118789.pdf
+[2025-03-26 23:12:48.820662] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018118789.pdf
+[2025-03-26 23:12:51.966348] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018111206.pdf
+[2025-03-26 23:16:43.467453] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018118789.pdf
+[2025-03-26 23:31:02.279491] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018118789.pdf
+[2025-03-26 23:31:31.692803] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018118789.pdf
+[2025-03-26 23:32:08.449393] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018118789.pdf
+[2025-03-26 23:38:52.794716] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018118789.pdf
+[2025-03-26 23:44:11.243760] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743018118789.pdf
+[2025-03-27 00:21:00.834451] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743023363397.pdf
+[2025-03-27 00:27:11.247775] [SKIP] Sayfa 0 başlık içeriyor, atlandı.
+[2025-03-27 00:27:17.629392] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743022211354.pdf
+[2025-03-27 00:33:06.840173] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743022213782.pdf
+[2025-03-27 00:43:38.439480] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743022209666.pdf
+[2025-03-27 00:49:38.170048] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743025599474.pdf
+[2025-03-27 00:51:25.786116] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743025599474.pdf
+[2025-03-27 01:02:31.328150] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743025599474.pdf
+[2025-03-27 01:31:00.116771] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027914558.pdf
+[2025-03-27 01:31:21.413779] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027916004.pdf
+[2025-03-27 01:31:36.826634] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027916344.pdf
+[2025-03-27 01:34:46.623200] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027925557.pdf
+[2025-03-27 01:35:49.080366] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027916859.pdf
+[2025-03-27 01:36:47.593299] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027919696.pdf
+[2025-03-27 01:37:39.290709] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027987623.pdf
+[2025-03-27 01:38:48.951670] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743027987623.pdf
+[2025-03-27 01:40:38.184145] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743027987623.pdf
+[2025-03-27 02:17:47.353555] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743027914558.pdf
+[2025-03-27 02:20:11.593945] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027919696.pdf
+[2025-03-28 10:51:27.114244] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743028459790.pdf
+[2025-03-28 10:52:39.338213] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743028459790.pdf
+[2025-03-28 11:03:10.704646] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027990295.pdf
+[2025-03-28 11:03:11.291385] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027992422.pdf
+[2025-03-28 11:05:00.694804] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743027990295.pdf
+[2025-03-28 11:05:02.553518] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743027992422.pdf
+[2025-03-28 11:20:24.137370] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743027990645.pdf
+[2025-03-28 11:21:08.221968] [SKIP] Çok dar alan: [11.0, 507.5039367675781, 19.0, 714.0]
+[2025-03-28 11:21:08.232973] [SKIP] Çok dar alan: [11.0, 261.89569091796875, 19.0, 401.03973388671875]
+[2025-03-28 11:21:08.252136] [SKIP] Çok dar alan: [131.89999389648438, 378.19189453125, 140.50555419921875, 389.42431640625]
+[2025-03-28 11:21:08.253148] [SKIP] Çok dar alan: [145.63999938964844, 378.3321838378906, 148.97665405273438, 389.42431640625]
+[2025-03-28 11:21:08.292113] [SKIP] Çok dar alan: [455.32000732421875, 91.34381103515625, 458.81500244140625, 106.81967163085938]
+[2025-03-28 11:21:08.292113] [SKIP] Çok dar alan: [306.0400085449219, 115.46098327636719, 308.2900085449219, 125.42398071289062]
+[2025-03-28 11:21:08.336863] [SKIP] Çok dar alan: [306.0400085449219, 177.21218872070312, 308.5450134277344, 188.30433654785156]
+[2025-03-28 11:21:08.631151] [SKIP] Çok dar alan: [392.9200134277344, 629.8721923828125, 401.8277893066406, 640.9642944335938]
+[2025-03-28 11:21:09.065893] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743027990645.pdf
+[2025-03-28 11:24:11.028339] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743027992422.pdf
+[2025-03-28 11:34:15.008214] [SKIP] Çok dar alan: [306.0400085449219, 177.21218872070312, 308.5450134277344, 188.30433654785156]
+[2025-03-28 11:34:15.314056] [SKIP] Çok dar alan: [11.0, 507.5039367675781, 19.0, 714.0]
+[2025-03-28 11:34:15.342246] [SKIP] Çok dar alan: [455.32000732421875, 91.34381103515625, 458.81500244140625, 106.81967163085938]
+[2025-03-28 11:34:15.343261] [SKIP] Çok dar alan: [306.0400085449219, 115.46098327636719, 308.2900085449219, 125.42398071289062]
+[2025-03-28 11:34:15.756730] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743027987623.pdf
+[2025-03-28 16:53:44.101368] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743169772592.pdf
+[2025-03-28 16:55:41.399750] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743169772592.pdf
+[2025-03-28 16:57:31.407896] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743169772592.pdf
+[2025-03-28 17:05:47.268410] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743170439505.pdf
+[2025-03-28 17:06:43.502449] [SKIP] Çok dar alan: [528.5484008789062, 328.81353759765625, 538.2877197265625, 336.7835388183594]
+[2025-03-28 17:06:45.062977] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743170439505.pdf
+[2025-03-28 17:55:27.672280] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743170441995.pdf
+[2025-03-28 17:59:36.859544] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743170441995.pdf
+[2025-03-28 18:03:10.857314] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743170441995.pdf
+[2025-03-28 18:11:30.250588] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743170441995.pdf
+[2025-03-28 18:26:34.610174] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743170441995.pdf
+[2025-03-28 18:30:09.058059] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743150960159.pdf
+[2025-03-28 18:51:26.392409] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743150960159.pdf
+[2025-03-28 18:59:24.294481] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743176927283.pdf
+[2025-03-28 19:08:05.015943] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743176927283.pdf
+[2025-03-30 10:59:46.835343] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317883911.pdf
+[2025-03-30 11:05:34.949436] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317883911.pdf
+[2025-03-30 11:07:15.374012] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878870.pdf
+[2025-03-30 11:17:04.747706] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317879087.pdf
+[2025-03-30 23:37:00.183508] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878649.pdf
+[2025-03-30 23:37:00.184505] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878870.pdf
+[2025-03-30 23:50:47.366066] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878649.pdf
+[2025-03-30 23:51:47.798831] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743318038253.pdf
+[2025-03-30 23:57:51.355161] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743318038299.pdf
+[2025-03-31 00:02:17.208905] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743318038299.pdf
+[2025-03-31 00:03:05.428416] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317879087.pdf
+[2025-03-31 00:04:09.786204] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317879087.pdf
+[2025-03-31 00:11:22.373803] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743317879087.pdf
+[2025-03-31 00:20:15.570383] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743318038210.pdf
+[2025-03-31 00:21:08.160228] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878870.pdf
+[2025-03-31 00:21:54.115496] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878870.pdf
+[2025-03-31 00:23:22.563334] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878870.pdf
+[2025-03-31 00:24:54.173458] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878870.pdf
+[2025-03-31 00:27:13.082336] [SKIP] Çok dar alan: [528.5484008789062, 328.81353759765625, 538.2877197265625, 336.7835388183594]
+[2025-03-31 00:27:14.109292] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743317878870.pdf
+[2025-03-31 00:35:19.038556] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743318038299.pdf
+[2025-03-31 00:35:35.620935] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317878649.pdf
+[2025-04-01 12:19:32.025539] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743317884212.pdf
+[2025-04-01 12:36:35.343843] [HATA] Görsel blur işlemi başarısız: code=2: cannot remove file 'C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743176927283_blurred.pdf': Permission denied
+[2025-04-01 12:36:35.651645] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743176927283.pdf
+[2025-04-01 12:44:02.542697] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500163951.pdf
+[2025-04-01 12:45:49.585501] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500163951.pdf
+[2025-04-01 12:53:16.629877] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500163864.pdf
+[2025-04-01 12:59:29.133423] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500163864.pdf
+[2025-04-01 13:01:10.205166] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500163864.pdf
+[2025-04-01 13:21:11.545860] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 13:22:22.663882] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500163864.pdf
+[2025-04-01 13:28:02.716901] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500163864.pdf
+[2025-04-01 13:33:06.555695] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500164270.pdf
+[2025-04-01 13:38:14.760353] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500164270.pdf
+[2025-04-01 13:45:36.229793] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500164270.pdf
+[2025-04-01 13:46:01.221332] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500335702.pdf
+[2025-04-01 13:47:03.551714] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 13:48:09.008288] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 13:52:37.579884] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 13:52:59.076643] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358367.pdf
+[2025-04-01 13:59:05.829537] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 14:02:43.789160] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 14:08:08.038817] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 14:09:02.153143] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 14:10:58.358772] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500199403.pdf
+[2025-04-01 15:27:24.357572] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500199433.pdf
+[2025-04-01 15:28:47.247750] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500199433.pdf
+[2025-04-01 15:30:00.547639] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500199433.pdf
+[2025-04-01 15:31:23.742378] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500199433.pdf
+[2025-04-01 15:41:28.461896] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500358341.pdf
+[2025-04-01 16:28:09.706288] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743500168333.pdf
+[2025-04-01 22:19:18.015732] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534757878.pdf
+[2025-04-01 22:21:36.544141] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534757878.pdf
+[2025-04-01 22:23:33.486149] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534757624.pdf
+[2025-04-01 22:25:18.698394] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534757624.pdf
+[2025-04-01 22:26:51.649924] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534757624.pdf
+[2025-04-01 22:37:34.747080] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534757592.pdf
+[2025-04-01 22:37:52.924762] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534757592.pdf
+[2025-04-01 22:52:32.740877] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534758261.pdf
+[2025-04-01 22:57:44.909973] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534758001.pdf
+[2025-04-01 23:02:10.325049] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534758001.pdf
+[2025-04-01 23:04:53.592563] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534758001.pdf
+[2025-04-01 23:09:23.703072] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534758001.pdf
+[2025-04-01 23:14:16.643017] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534758001.pdf
+[2025-04-01 23:18:01.233264] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534757624.pdf
+[2025-04-01 23:20:42.618875] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534768910.pdf
+[2025-04-01 23:23:31.723683] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534768910.pdf
+[2025-04-01 23:35:05.342943] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534948240.pdf
+[2025-04-01 23:38:00.025567] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534948240.pdf
+[2025-04-01 23:41:51.890808] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534948240.pdf
+[2025-04-02 00:07:22.168850] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534947891.pdf
+[2025-04-02 00:08:19.223164] [HATA] Yüz geri yükleme başarısız: no such file: 'C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534947891.pdf'
+[2025-04-02 00:08:20.987327] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534947891.pdf
+[2025-04-02 00:11:11.267655] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534947891.pdf
+[2025-04-02 00:11:11.800380] [HATA] Yüz geri yükleme başarısız: save to original must be incremental
+[2025-04-02 00:16:44.441364] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534947891.pdf
+[2025-04-02 00:16:49.733613] Bulanıklaştırılmış yüzler geri yüklendi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534947891.pdf
+[2025-04-02 00:25:24.981385] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534947891.pdf
+[2025-04-02 00:25:27.684355] [HATA] Şifreli yüz geri alma başarısız: [Errno 2] No such file or directory: 'image_metadata.json'
+[2025-04-02 00:26:05.659402] [HATA] Görsel blur + şifreleme başarısız: Object of type int32 is not JSON serializable
+[2025-04-02 00:26:05.676065] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534948240.pdf
+[2025-04-02 00:26:52.615116] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534948240.pdf
+[2025-04-02 00:26:55.291423] [HATA] Şifreli yüz geri alma başarısız: Expecting value: line 1 column 26 (char 25)
+[2025-04-02 00:43:16.707110] [HATA] Görsel blur + şifreleme başarısız: Object of type int32 is not JSON serializable
+[2025-04-02 00:43:16.707448] [HATA] Görsel metadata JSON hatalı yazıldı: Object of type int32 is not JSON serializable
+[2025-04-02 00:43:16.720282] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534768910.pdf
+[2025-04-02 00:45:31.287959] [HATA] Görsel blur + şifreleme başarısız: Object of type int32 is not JSON serializable
+[2025-04-02 00:45:31.300662] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534768910.pdf
+[2025-04-02 00:48:15.449790] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534768910.pdf
+[2025-04-02 00:49:19.509691] [ENGELLENDİ] Hakem yorumu değiştirildi, işlem iptal.
+[2025-04-02 00:50:13.620532] [ENGELLENDİ] Hakem yorumu değiştirildi, işlem iptal.
+[2025-04-02 00:54:45.458662] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743544279637.pdf
+[2025-04-02 00:55:41.076945] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279637.pdf
+[2025-04-02 00:55:44.869730] [HATA] Şifreli yüz geri alma başarısız: code=2: cannot remove file 'C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279637.pdf': Permission denied
+[2025-04-02 01:00:29.211793] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279637.pdf
+[2025-04-02 01:00:33.340039] [HATA] Şifreli yüz geri alma başarısız: code=2: cannot remove file 'C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279637.pdf': Permission denied
+[2025-04-02 01:01:51.517199] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279637.pdf
+[2025-04-02 01:01:56.326898] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279637.pdf
+[2025-04-02 01:05:17.241881] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\reviewResultDocuments\reviewResult_MKL-1743544279637.pdf
+[2025-04-02 01:05:19.314402] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279637.pdf
+[2025-04-02 01:05:38.781536] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743544279087.pdf
+[2025-04-02 01:06:25.223634] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\reviewResultDocuments\reviewResult_MKL-1743544279087.pdf
+[2025-04-02 01:06:27.308484] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279087.pdf
+[2025-04-02 01:09:44.596132] Yorum bölgesi bulunamadı. İşlem iptal.
+[2025-04-02 01:17:09.851319] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743544280203.pdf
+[2025-04-02 01:18:03.986257] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544280203.pdf
+[2025-04-02 01:18:07.947602] [HATA] Şifreli yüz geri alma başarısız: code=2: cannot remove file 'C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544280203.pdf': Permission denied
+[2025-04-02 01:21:57.447620] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544280203.pdf
+[2025-04-02 01:22:01.864721] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544280203.pdf
+[2025-04-02 01:23:05.399321] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743544279960.pdf
+[2025-04-02 01:24:04.554788] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279960.pdf
+[2025-04-02 01:24:08.653744] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743544279960.pdf
+[2025-04-02 02:02:10.953241] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743548428983.pdf
+[2025-04-02 02:02:56.801841] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743548428983.pdf
+[2025-04-02 02:03:00.794075] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743548428983.pdf
+[2025-04-02 02:06:24.072005] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743548429418.pdf
+[2025-04-02 02:06:47.134105] RSA imzası bulunamadı. İşlem iptal.
+[2025-04-02 02:13:06.697394] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534758001.pdf
+[2025-04-02 02:13:53.739568] RSA imzası bulunamadı. İşlem iptal.
+[2025-04-02 02:20:00.072914] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743548428399.pdf
+[2025-04-02 02:31:24.357861] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743548430084.pdf
+[2025-04-02 02:59:49.989838] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743534758261.pdf
+[2025-04-02 03:04:18.102345] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534758261.pdf
+[2025-04-02 03:04:21.949021] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534758261.pdf
+[2025-04-02 03:06:41.719863] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534758261.pdf
+[2025-04-02 03:06:46.069250] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743534758261.pdf
+[2025-04-02 03:21:12.137017] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553166607.pdf
+[2025-04-02 03:23:12.018313] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743553166607.pdf
+[2025-04-02 03:23:13.668189] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743553166607.pdf
+[2025-04-02 03:34:41.755162] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 03:42:36.045683] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 03:43:50.058069] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 03:44:23.859931] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553934984.pdf
+[2025-04-02 03:47:53.570171] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 03:53:12.613725] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 03:55:04.330549] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 04:08:25.533159] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 04:18:23.459663] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 04:32:29.183226] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 04:40:44.867787] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 04:45:54.829663] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553935254.pdf
+[2025-04-02 04:57:53.456794] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743558936878.pdf
+[2025-04-02 05:00:04.582810] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743558936878.pdf
+[2025-04-02 05:00:06.983396] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743558936878.pdf
+[2025-04-02 05:04:54.732434] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743558936878.pdf
+[2025-04-02 05:04:57.440961] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743558936878.pdf
+[2025-04-02 05:10:12.163358] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743558936878.pdf
+[2025-04-02 05:10:14.757790] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743558936878.pdf
+[2025-04-02 05:24:35.100229] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743559019954.pdf
+[2025-04-02 05:26:38.315822] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743559019954.pdf
+[2025-04-02 05:26:41.651341] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743559019954.pdf
+[2025-04-02 05:53:22.174813] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743559019190.pdf
+[2025-04-02 05:54:09.554498] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743559019190.pdf
+[2025-04-02 05:54:13.033039] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743559019190.pdf
+[2025-04-02 06:01:20.975704] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743558937041.pdf
+[2025-04-02 06:02:10.933819] De-anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743558937041.pdf
+[2025-04-02 06:02:13.587448] Gizli yüzler başarıyla geri getirildi: C:\Users\JARVIS\makale\src\finalDocuments\final_MKL-1743558937041.pdf
+[2025-04-02 06:13:43.050362] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743553934704.pdf
+[2025-04-02 06:20:03.648920] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743563887566.pdf
+[2025-04-02 06:23:25.351643] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743563887566.pdf
+[2025-04-02 06:23:52.722959] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743563890343.pdf
+[2025-04-02 06:25:21.238272] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743563887566.pdf
+[2025-04-02 06:27:08.799559] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743563887566.pdf
+[2025-04-02 06:29:22.169369] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743563887566.pdf
+[2025-04-02 06:30:51.207825] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743563887566.pdf
+[2025-04-02 06:36:54.467039] Anonimleştirme tamamlandı: C:\Users\JARVIS\makale\src\anonymized\anonymized_MKL-1743563887566.pdf

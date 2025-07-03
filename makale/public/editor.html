@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editör Paneli</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS dosyası buraya bağlandı -->
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Editör Paneli</h2>
+
+        <!-- 📌 Hakem Ekleme -->
+        <div class="form-container">
+            <h3>Yeni Hakem Ekle</h3>
+            <div class="form-group">
+                <label for="reviewerName">İsim:</label>
+                <input type="text" id="reviewerName" placeholder="Hakem Adı" required>
+            </div>
+            <div class="form-group">
+                <label for="reviewerExpertise">Uzmanlık Alanı:</label>
+                <input type="text" id="reviewerExpertise" placeholder="Uzmanlık Alanı" required>
+            </div>
+            <button class="btn" onclick="addReviewer()">Ekle</button>
+        </div>
+
+        <div class="article-section">
+            <h2>Makaleler</h2>
+            <div class="filter-group">
+                <select id="articleStatusFilter">
+                    <option value="">Tüm Makaleler</option>
+                    <option value="Hakem Bekleniyor">Hakem Bekleniyor</option>
+                    <option value="Hakeme Atandı">Hakeme Atandı</option>
+                    <option value="Değerlendirildi">Değerlendirildi</option>
+                    <option value="Onaylandı">Onaylandı</option>
+                    <option value="Reddedildi">Reddedildi</option>
+                </select>
+                <button class="btn" onclick="loadArticles()">Listele</button>
+            </div>
+        </div>
+
+        <div id="articlesContainer" class="articles-container"></div>
+    </div>
+
+    <script>
+        async function addReviewer() {
+            const name = document.getElementById("reviewerName").value.trim();
+            const expertise = document.getElementById("reviewerExpertise").value.trim();
+
+            if (!name || !expertise) {
+                alert("Lütfen hakem adı ve uzmanlık alanını giriniz!");
+                return;
+            }
+
+            const response = await fetch("/api/editor/addReviewer", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ name, expertise })
+            });
+
+            const data = await response.json();
+            if (response.ok) {
+                alert(data.message);
+                document.getElementById("reviewerName").value = "";
+                document.getElementById("reviewerExpertise").value = "";
+            } else {
+                alert(`Hata: ${data.error}`);
+            }
+        }
+
+        async function loadArticles() {
+            const status = document.getElementById("articleStatusFilter").value;
+            const res = await fetch(`/api/editor/articles?status=${status}`);
+            const articles = await res.json();
+            const container = document.getElementById("articlesContainer");
+            container.innerHTML = "";
+
+            articles.forEach(article => {
+                let card = document.createElement("div");
+                card.className = "card";
+                card.innerHTML = `
+                    <p><strong>Takip No:</strong> ${article.trackingNumber}</p>
+                    <p><strong>Konu:</strong> ${article.articleTopic}</p>
+                    <p><strong>Durum:</strong> ${article.status}</p>
+
+                    <h3>Makale Görüntüleme ve İndirme</h3>
+                    <a href="http://localhost:5000${article.pdfPath}" target="_blank">
+                        <button>📄 Orijinal Makaleyi Aç</button>
+                    </a>
+                    <a href="http://localhost:5000${article.pdfPath}" download>
+                        <button>📂 Orijinal Makaleyi İndir</button>
+                    </a>
+
+                    ${article.anonPdfPath ? `
+                        <a href="http://localhost:5000${article.anonPdfPath.startsWith('/') ? article.anonPdfPath : '/' + article.anonPdfPath}" target="_blank">
+                            <button>📄 Anonimleştirilmiş Makaleyi Aç</button>
+                        </a>
+
+                        <a href="http://localhost:5000${article.anonPdfPath}" download>
+                            <button>📂 Anonimleştirilmiş Makaleyi İndir</button>
+                        </a>
+                    ` : ""}
+
+                    ${article.status === "Hakem Bekleniyor" ? `
+                        <h4>Hakem Atama</h4>
+                        <select id="reviewerSelect-${article._id}"></select>
+                        <button onclick="assignReviewer('${article._id}')">Hakem Ata</button>
+
+                        <h4>Anonimleştirilecek Bilgiler:</h4>
+                        <label><input type="checkbox" id="anonymizeName-${article._id}"> Ad-Soyad</label>
+                        <label><input type="checkbox" id="anonymizeEmail-${article._id}"> E-posta</label>
+                        <label><input type="checkbox" id="anonymizeInstitution-${article._id}"> Kurum</label>
+                        <button onclick="anonymizeArticle('${article._id}')">Anonimleştir</button>
+                    ` : ""}
+
+                    ${article.status === "Hakeme Atandı" ? `
+                        <h4>Hakem Değiştir</h4>
+                        <select id="changeReviewerSelect-${article._id}"></select>
+                        <button onclick="changeReviewer('${article._id}')">Hakemi Değiştir</button>
+                    ` : ""}
+
+                    ${article.status === "Değerlendirildi" ? `
+                        <h4>Hakem Değerlendirmesi</h4>
+                        <p><strong>Sonuç:</strong> ${article.reviewResult}</p>
+                        <p><strong>Yorum:</strong> ${article.additionalComments || "Yorum belirtilmemiş"}</p>
+                        <button onclick="updateStatus('${article._id}', 'Onaylandı')">✅ Onayla</button>
+                        <button onclick="updateStatus('${article._id}', 'Reddedildi')">❌ Reddet</button>
+                        <button onclick="removeAnonymization('${article._id}')">🔓 Anonimliği Kaldır</button>
+                    ` : ""}
+                `;
+                container.appendChild(card);
+
+                if (article.status === "Hakem Bekleniyor") {
+                    loadReviewers(`reviewerSelect-${article._id}`, article.articleTopic);
+                }
+
+                if (article.status === "Hakeme Atandı") {
+                    loadReviewers(`changeReviewerSelect-${article._id}`, article.reviewer);
+                }
+            });
+        }
+
+        async function loadReviewers(selectId, topic=null, excludeReviewerId = null) {
+            let url = "/api/editor/reviewers";
+            if (topic) {
+                url += `?topic=${encodeURIComponent(topic)}`;
+            }
+
+            const res = await fetch(url);
+            const reviewers = await res.json();
+            const select = document.getElementById(selectId);
+
+            const filtered = excludeReviewerId
+                ? reviewers.filter(reviewer => reviewer._id !== excludeReviewerId)
+                : reviewers;
+
+            if (filtered.length === 0) {
+                select.innerHTML = '<option value="">Uygun Hakem Bulunamadı</option>';
+            } else {
+                select.innerHTML = filtered.map(reviewer => `<option value="${reviewer._id}">${reviewer.name} (${reviewer.expertise})</option>`).join("");
+            }
+        }
+
+        async function assignReviewer(articleId) {
+            const reviewerId = document.getElementById(`reviewerSelect-${articleId}`).value;
+            await fetch("/api/editor/assignReviewer", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ articleId, reviewerId })
+            });
+            loadArticles();
+        }
+
+        async function changeReviewer(articleId) {
+            const newReviewerId = document.getElementById(`changeReviewerSelect-${articleId}`).value;
+            await fetch("/api/editor/changeReviewer", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ articleId, newReviewerId })
+            });
+            alert("Hakem başarıyla değiştirildi!");
+            loadArticles();
+        }
+
+        async function anonymizeArticle(articleId) {
+            const name = document.getElementById(`anonymizeName-${articleId}`).checked;
+            const email = document.getElementById(`anonymizeEmail-${articleId}`).checked;
+            const institution = document.getElementById(`anonymizeInstitution-${articleId}`).checked;
+
+            if (!name && !email && !institution) {
+                alert("Lütfen en az bir anonimleştirilecek bilgi seçin.");
+                return;
+            }
+
+            await fetch("/api/editor/anonymize", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ articleId, options: { name, email, institution } })
+            });
+
+            alert("Makale anonimleştirildi!");
+            loadArticles();
+        }
+
+        async function removeAnonymization(articleId) {
+            try {
+                const response = await fetch("/api/editor/decryptAnonymized", {
+                   method: "POST",
+                   headers: { "Content-Type": "application/json" },
+                   body: JSON.stringify({ articleId })
+                });
+
+                const result = await response.json();
+                if (response.ok) {
+                   alert("Anonimlik kaldırıldı ve PDF güncellendi!");
+                   loadArticles();
+                } else {
+                   alert("Hata: " + result.error);
+                }
+            } catch (err) {
+                console.error("❌ Fetch isteği başarısız:", err);
+                alert("Sunucuya ulaşırken bir hata oluştu!");
+            }
+        }
+
+        async function updateStatus(articleId, newStatus) {
+            await fetch("/api/editor/updateStatus", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ articleId, newStatus })
+            });
+            loadArticles();
+        }
+
+        loadArticles();
+    </script>
+</body>
+</html>

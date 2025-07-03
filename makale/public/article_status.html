@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makale Durum Sorgulama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Makale Durumu Sorgulama</h2>
+
+        <div class="form-group">
+            <label for="trackingNumber">Makale Takip Numarası:</label>
+            <input type="text" id="trackingNumber" placeholder="Örn: MKL-1741939328083">
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" placeholder="Örn: ornek@eposta.com">
+        </div>
+
+        <button class="btn" onclick="searchArticle()">Sorgula</button>
+
+        <div id="articleInfo" class="card" style="display: none;">
+            <h3>Makale Bilgileri</h3>
+            <p><strong>Takip No:</strong> <span id="infoTracking"></span></p>
+            <p><strong>Konu:</strong> <span id="infoTopic"></span></p>
+            <p><strong>Durum:</strong> <span id="infoStatus"></span></p>
+            <p><strong>Hakem Kararı:</strong> <span id="infoReview"></span></p>
+            <p><strong>Ek Yorumlar:</strong> <span id="infoComments"></span></p>
+            <p><strong>Yüklenme Tarihi:</strong> <span id="infoDate"></span></p>
+        </div>
+
+        <div id="messagingArea" class="messaging" style="display:none;">
+            <h3>Editör ile Mesajlaşma</h3>
+            <div id="messagesBox" class="message-box"></div>
+            <textarea id="newMessage" rows="3" class="message-input" placeholder="Mesajınızı yazın..."></textarea>
+            <button class="btn" onclick="sendMessage()">Gönder</button>
+        </div>
+    </div>
+
+    <script>
+        async function searchArticle() {
+            const trackingNumber = document.getElementById("trackingNumber").value.trim();
+            const email = document.getElementById("email").value.trim();
+
+            if (!trackingNumber || !email) {
+                alert("Lütfen makale takip numarası ve e-posta giriniz.");
+                return;
+            }
+
+            const response = await fetch(`/api/articles/status?trackingNumber=${trackingNumber}&email=${email}`);
+            const result = await response.json();
+
+            if (response.status !== 200) {
+                alert(result.message || "Makale bulunamadı!");
+                document.getElementById("articleInfo").style.display = "none";
+                document.getElementById("messagingArea").style.display = "none";
+                return;
+            }
+
+            document.getElementById("infoTracking").textContent = result.trackingNumber;
+            document.getElementById("infoTopic").textContent = result.articleTopic;
+            document.getElementById("infoStatus").textContent = result.status;
+            document.getElementById("infoReview").textContent = result.reviewResult || "Henüz değerlendirilmedi.";
+            document.getElementById("infoComments").textContent = result.additionalComments || "Yorum bulunmuyor.";
+            document.getElementById("infoDate").textContent = new Date(result.submittedAt).toLocaleDateString("tr-TR");
+
+            document.getElementById("articleInfo").style.display = "block";
+            document.getElementById("messagingArea").style.display = "block";
+
+            await loadMessages(trackingNumber);
+        }
+
+        async function loadMessages(articleId) {
+            const email = document.getElementById("email").value.trim();
+
+            const res = await fetch(`/api/message?articleId=${articleId}&email=${email}`);
+            const messages = await res.json();
+
+            const box = document.getElementById("messagesBox");
+            box.innerHTML = "";
+
+            messages.forEach(m => {
+                const el = document.createElement("div");
+                el.classList.add("message");
+                el.classList.add(m.sender === "yazar" ? "message-user" : "message-editor");
+                el.innerHTML = `
+                    <div class="message-sender"><strong>${m.sender === "yazar" ? "Siz" : "Editör"}</strong></div>
+                    <div class="message-text">${m.message}</div>
+                    <div class="message-time">${new Date(m.timestamp).toLocaleString()}</div>
+                `;
+                box.appendChild(el);
+            });
+        }
+
+        async function sendMessage() {
+            const articleId = document.getElementById("trackingNumber").value.trim();
+            const message = document.getElementById("newMessage").value.trim();
+            if (!message) return;
+
+            await fetch(`/api/message`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ articleId, sender: "yazar", message })
+            });
+
+            document.getElementById("newMessage").value = "";
+            loadMessages(articleId);
+        }
+    </script>
+</body>
+</html>

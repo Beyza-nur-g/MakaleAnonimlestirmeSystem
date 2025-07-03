@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakem Değerlendirme Sayfası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Hakem Değerlendirme Paneli</h2>
+
+        <div class="form-group">
+            <label for="reviewerSelect">Hakem Seçimi:</label>
+            <select id="reviewerSelect">
+                <option value="">Hakem Seçin</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="articleSelect">Atanan Makaleler:</label>
+            <select id="articleSelect" onchange="updateDownloadAndViewButtons()">
+                <option value="">Makale Seçin</option>
+            </select>
+        </div>
+
+        <div class="download-section">
+            <h3>Makale Görüntüleme ve İndirme</h3>
+            <a id="anonPdfLink" href="#" target="_blank" style="display: none;">
+                <button class="btn">📄 Görüntüle</button>
+            </a>
+            <a id="anonPdfDownload" href="#" style="display: none;" download>
+                <button class="btn">📂 İndir</button>
+            </a>
+        </div>
+
+        <div class="form-group">
+            <label for="reviewResult">Değerlendirme Sonucu:</label>
+            <select id="reviewResult">
+                <option value="Hakem Onayladı">Onayla</option>
+                <option value="Hakem Reddetti">Reddet</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="additionalComments">Ek Yorumlar:</label>
+            <textarea id="additionalComments" placeholder="Ek yorumlar..."></textarea>
+        </div>
+
+        <button class="btn" onclick="submitReview()">Değerlendir</button>
+    </div>
+
+    <script>
+        // JavaScript kodları olduğu gibi bırakıldı
+        // İçerik zaten oldukça net ve işlevsel
+        // Stil için sınıflandırmalar yapıldı
+        async function loadReviewers() {
+            const res = await fetch("/api/reviewers");
+            const reviewers = await res.json();
+            const reviewerSelect = document.getElementById("reviewerSelect");
+            reviewerSelect.innerHTML = '<option value="">Hakem Seçin</option>';
+            reviewers.forEach(reviewer => {
+                let option = document.createElement("option");
+                option.value = reviewer._id;
+                option.textContent = reviewer.name + " (" + reviewer.expertise + ")";
+                reviewerSelect.appendChild(option);
+            });
+        }
+
+        async function loadArticles() {
+            const reviewerId = document.getElementById("reviewerSelect").value;
+            if (!reviewerId) return;
+
+            const res = await fetch(`/api/reviewers/articles/${reviewerId}`);
+            const articles = await res.json();
+            const articleSelect = document.getElementById("articleSelect");
+            articleSelect.innerHTML = '<option value="">Makale Seçin</option>';
+
+            if (articles.length === 0) {
+                alert("Bu hakeme atanmış makale bulunamadı!");
+                return;
+            }
+
+            articles.forEach(article => {
+                let option = document.createElement("option");
+                option.value = article._id;
+                option.textContent = article.trackingNumber;
+                option.setAttribute("data-pdf", article.anonPdfPath);
+                articleSelect.appendChild(option);
+            });
+        }
+
+        function updateDownloadAndViewButtons() {
+            const articleSelect = document.getElementById("articleSelect");
+            const selectedOption = articleSelect.options[articleSelect.selectedIndex];
+            let pdfPath = selectedOption.getAttribute("data-pdf");
+
+            if (pdfPath) {
+                const fullUrl = `http://localhost:5000${pdfPath}`;
+                document.getElementById("anonPdfLink").href = fullUrl;
+                document.getElementById("anonPdfLink").style.display = "inline-block";
+
+                document.getElementById("anonPdfDownload").href = fullUrl;
+                document.getElementById("anonPdfDownload").style.display = "inline-block";
+            } else {
+                document.getElementById("anonPdfLink").style.display = "none";
+                document.getElementById("anonPdfDownload").style.display = "none";
+            }
+        }
+
+        async function submitReview() {
+            const articleId = document.getElementById("articleSelect").value;
+            const reviewerId = document.getElementById("reviewerSelect").value;
+            const reviewResult = document.getElementById("reviewResult").value;
+            const additionalComments = document.getElementById("additionalComments").value;
+
+            if (!articleId || !reviewerId) {
+                alert("Lütfen hakem ve makale seçiniz!");
+                return;
+            }
+
+            const hashedEvaluation = await sha256(additionalComments);
+
+            const response = await fetch("/api/reviewers/evaluate", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ articleId, reviewerId, reviewResult, additionalComments })
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                alert("Değerlendirme kaydedildi!");
+                if (data.anonPdfPath) {
+                    window.open(`http://localhost:5000${data.anonPdfPath}`, "_blank");
+                }
+            } else {
+                alert(`Hata: ${data.error}`);
+            }
+        }
+
+        async function sha256(message) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(message);
+            const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+            return Array.from(new Uint8Array(hashBuffer)).map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        document.getElementById("reviewerSelect").addEventListener("change", loadArticles);
+        loadReviewers();
+    </script>
+</body>
+</html>
